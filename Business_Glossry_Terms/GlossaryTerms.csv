@@ -1,0 +1,29 @@
+﻿Nick Name,Name,Definition,IsDefinitionRichText,Status,Related Terms,Synonyms,Acronym,Experts,Stewards,Resources,Parent Term Name,Term Template Names
+Performer,Concert_Performer,,,Alert,,,,,,,Concert,System Default;
+Customer product,Product_Customer product,Asset with Customer product ,,Approved,Product_Produit client;,,,,,,Product,System Default;
+Video,Video,Term to identify asset with video information,,Approved,,Movie;,,,,,,System Default;
+Title,Movie_Title,Information with movie title information,,Approved,,,,,,,Movie,System Default;
+Customers,Hotel_Customers,Term to identify assets with hotel customer information,,Draft,,,,,,,Hotel,System Default;
+Workflow Test,Workflow Test,,,Draft,,,,,,,,System Default;
+Concert Name,Concert_Concert Name,,,Alert,,,,,,,Concert,System Default;
+Customer,Customer,Asset with customer information,,Approved,,,Client,,,,,System Default;
+Customer Satisfaction,Hotel_Customer Satisfaction,Term to identify asset about hotel customer satisfaction,,Draft,,,,,,,Hotel,System Default;
+Sales with taxes,Sales_Sales with taxes,Asset with sales information with taxes,,Approved,,,,,,,Sales,System Default;
+Product,Product,Asset about product,,Approved,,,,,,,,System Default;
+Ticket,Concert_Ticket,,,Draft,,,,,,,Concert,System Default;
+Ready for reporting,Ready for reporting,"Identify asset with first level of cleaning and formatting. This asset can be used as data source for corporate reporting 
+",,Approved,,,,,,,,System Default;
+Sales,Sales,Asset with information about sales (with or without taxes),,Approved,,,,,,,,System Default;
+Venue,Concert_Venue,,,Expired,,,,,,,Concert,System Default;
+Sales without taxes ,Sales_Sales without taxes ,Asset with sales information without taxes,,Approved,,,,,,,Sales,System Default;
+Gender,Gender,Identify asset with gender information,,Approved,,,,,,,,System Default;
+Picture,Hotel_Picture,Term to identify picture from hotel or part of the hotel,,Draft,,,,,,,Hotel,System Default;
+Support,Movie_Support,Define how the movie is deliver to customer (Physical or streaming) ,,Approved,,,,,,,Movie,System Default;
+Produit client,Product_Produit client,Asset contenant des produits clients,,Approved,Product_Customer product;,,,,,,Product,System Default;
+Transaction,Transaction,Asset with transaction information,,Approved,,,,,,,,System Default;
+Physical,Movie_Support_Physical,"Asset with information about physical support for movies (CD, DVD, Blu-Ray,.....)",,Approved,,,,,,,Movie_Support,System Default;
+Movie,Movie,Identify asset with movie information,,Approved,,Video;,,,,,,System Default;
+Actor,Movie_Actor,Asset with actor information,,Approved,,,,,,,Movie,System Default;
+Hotel,Hotel,Term to identify hotel asset,,Draft,,,,,,,,System Default;
+Concert,Concert,,,Approved,,,,,,,,System Default;
+Streaming,Movie_Support_Streaming,Asset with information about streaming movies,,Approved,,,,,,,Movie_Support,System Default;
