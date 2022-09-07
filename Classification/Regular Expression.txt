@@ -1,0 +1,1 @@
+Data Pattern to detect Social Insurance Number (SIN): ^[0-9]{3} [0-9]{3} [0-9]{3}$
