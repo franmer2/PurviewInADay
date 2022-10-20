@@ -276,7 +276,7 @@
                 "description": "Copy From Datalake to Azure SQL DB ",
                 "activities": [
                     {
-                        "name": "CopyFilestoDB",
+                        "name": "Franmer_CopyFilestoDB",
                         "type": "ExecuteDataFlow",
                         "dependsOn": [],
                         "policy": {
@@ -318,7 +318,7 @@
                         "type": "ExecutePipeline",
                         "dependsOn": [
                             {
-                                "activity": "CopyFilestoDB",
+                                "activity": "Franmer_CopyFilestoDB",
                                 "dependencyConditions": [
                                     "Succeeded"
                                 ]
