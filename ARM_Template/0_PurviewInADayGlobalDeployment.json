@@ -72,7 +72,7 @@
         "accountType": "Standard_LRS",
         "accessTier": "Hot",
         "apiVersion": "2018-06-01",
-        "adfUniqueName": "[concat(parameters('factoryName'),'-', uniqueString(subscription().id, resourceGroup().id))]",
+        "adfUniqueName": "[tolower(concat(parameters('factoryName'),'-', uniqueString(subscription().id, resourceGroup().id)))]",
         "factoryId": "[concat('Microsoft.DataFactory/factories/', variables('adfUniqueName'))]"
     },
     "resources": [
