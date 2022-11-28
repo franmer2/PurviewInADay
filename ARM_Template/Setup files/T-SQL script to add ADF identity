@@ -1,0 +1,2 @@
+CREATE USER [your_resource_name] FROM EXTERNAL PROVIDER;
+ALTER ROLE db_owner ADD MEMBER [your_resource_name];
