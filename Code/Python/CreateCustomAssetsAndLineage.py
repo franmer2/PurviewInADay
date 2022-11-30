@@ -10,11 +10,11 @@ from pyapacheatlas.core.util import GuidTracker
 
 #Add your AAD application as Data Curator in Microsoft Purview Data Catalog
 if __name__ == "__main__":
-    purview_Account_Name = "PurviewAeffacer"
+    purview_Account_Name = ""
     oauth = ServicePrincipalAuthentication(
-        client_id="53dba755-5f3a-4f32-8046-350f616037a7",
-        tenant_id="21b34613-f78a-42f0-8bf9-a7d5bdeb1f03",
-        client_secret="QoW8Q~.SrpE3vcVb.sFmQ18MihRLBCjRGNoXeayX"
+        client_id="",
+        tenant_id="",
+        client_secret=""
         )
     client = PurviewClient(
         account_name=purview_Account_Name,
